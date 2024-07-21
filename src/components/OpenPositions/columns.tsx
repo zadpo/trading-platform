@@ -1,6 +1,6 @@
 import { ColumnDef as TanstackColumnDef } from "@tanstack/react-table";
 import { Trade } from "@/types/trade";
-import { DataTableColumnDef } from "./types";
+import { DataTableColumnDef } from "@/types/";
 
 // Raw Column Definitions
 const rawColumns: TanstackColumnDef<Trade>[] = [
