@@ -67,7 +67,7 @@ export function DataTable({ data = [], columns }: DataTableProps) {
   }
 
   return (
-    <div className="rounded-md bg-[#202121]  py-4">
+    <div className="rounded-md bg-[#202121] py-4">
       <div className="overflow-x-auto">
         <table className="min-w-full bg-[#202121] text-white">
           <thead className="bg-[#282828] border-t border-b border-gray-700 text-white">
